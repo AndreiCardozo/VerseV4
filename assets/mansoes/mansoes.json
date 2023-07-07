@@ -1,0 +1,40 @@
+{
+    "motos": [
+        {
+            "NomeMoto": "Yamaha R1",
+            "PrecoMoto": 5000,
+            "ImgMoto": "caminho/para/imagem1.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "BMW R1250",
+            "PrecoMoto": 8000,
+            "ImgMoto": "caminho/para/imagem2.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "Yamaha R6",
+            "PrecoMoto": 10000,
+            "ImgMoto": "caminho/para/imagem3.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "BMW S 1000 RR",
+            "PrecoMoto": 10000,
+            "ImgMoto": "caminho/para/imagem3.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "Urbandevil",
+            "PrecoMoto": 10000,
+            "ImgMoto": "caminho/para/imagem3.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "YAMAHA XJ6",
+            "PrecoMoto": 10000,
+            "ImgMoto": "caminho/para/imagem3.jpg",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        }
+    ]
+}
