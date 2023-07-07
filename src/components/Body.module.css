@@ -1,0 +1,11 @@
+.bodyContainer {
+  display: flex;
+}
+
+.SideBar {
+  width: 20%; /* Defina a largura desejada para o SideBar */
+}
+
+.Store {
+  flex-grow: 1; /* Permite que o componente Store ocupe o espaço restante */
+}

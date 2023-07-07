@@ -1,0 +1,94 @@
+.container {
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.itemsContainer {
+    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.item {
+    display: flex;
+  background-color: #12161E;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.itemTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.itemPrice {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.itemDesc {
+  font-size: 14px;
+  color: #999999;
+}
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+}
+
+.quantityLabel {
+  font-size: 14px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.quantityButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 30%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantityButton:hover {
+  background-color: #e6e6e6;
+}
+
+.quantityButton .plusIcon {
+  color: #4caf50;
+}
+
+.quantityButton .minusIcon {
+  color: #f44336;
+}
+
+.removeButton {
+  background-color: #f44336;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.removeButton:hover {
+  background-color: #d32f2f;
+}

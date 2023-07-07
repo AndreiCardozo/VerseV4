@@ -1,0 +1,58 @@
+.sidebar li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sidebarall {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  color: white;
+}
+
+.hoverEffect:hover {
+  color: #52388f;
+}
+
+li a {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px #252c38 solid;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.sidebarText {
+  margin-right: 10px;
+}
+
+.lidiv {
+  justify-content: space-between;
+}
+
+.icon1 {
+  margin-left: auto;
+}
+

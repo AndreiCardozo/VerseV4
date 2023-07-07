@@ -1,0 +1,347 @@
+{
+    "carros": [
+        {
+            "id": "1",
+            "NomeCarro": "350z",
+            "PrecoCarro": 60,
+            "ImgCarro": "./350z.png",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "2",
+            "NomeCarro": "Mercedes G63",
+            "PrecoCarro": 35000,
+            "ImgCarro": "caminho/para/imagem2.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "3",
+            "NomeCarro": "Mercedes G65",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "4",
+            "NomeCarro": "Toyota Supra",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "5",
+            "NomeCarro": "BMW i8",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "6",
+            "NomeCarro": "Honda S2000",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "7",
+            "NomeCarro": "Dodge Challenger 8970",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "9",
+            "NomeCarro": "Mustang 1969",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "11",
+            "NomeCarro": "Mustang Fast",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "12",
+            "NomeCarro": "Urus",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "8",
+            "NomeCarro": "VW Touareg",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "14",
+            "NomeCarro": "BMW M1",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "15",
+            "NomeCarro": "Carro 3",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "16",
+            "NomeCarro": "Chevrolet Camaro",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "17",
+            "NomeCarro": "Honda Civic Type-R",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "18",
+            "NomeCarro": "Nissan GTR R34",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "19",
+            "NomeCarro": "Mazda RX7",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "20",
+            "NomeCarro": "Mercedes GT63",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "21",
+            "NomeCarro": "Golf GTI",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "22",
+            "NomeCarro": "Golf MK7",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "23",
+            "NomeCarro": "Ford Mustang",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "24",
+            "NomeCarro": "Ferrari F252",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "26",
+            "NomeCarro": "Ferrari 8272",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "28",
+            "NomeCarro": "Ferrari Italia",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "29",
+            "NomeCarro": "Nissan GTR50",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "30",
+            "NomeCarro": "BMW M4 GTS",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "31",
+            "NomeCarro": "BMW M5 E34",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "32",
+            "NomeCarro": "BMW M8",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "33",
+            "NomeCarro": "Tiger 1200",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "34",
+            "NomeCarro": "Audi R8",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "35",
+            "NomeCarro": "Shelby GT500",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "36",
+            "NomeCarro": "Porsche 911",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "37",
+            "NomeCarro": "Audi RS6",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "38",
+            "NomeCarro": "Lamborghini Aventador",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "39",
+            "NomeCarro": "Nissan GTR R32",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "1",
+            "NomeCarro": "Nissan GTR R33",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "41",
+            "NomeCarro": "Nissan GTR R35",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "42",
+            "NomeCarro": "Nissan GTR R35 Nismo",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "43",
+            "NomeCarro": "Bentley Bacalar",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "44",
+            "NomeCarro": "Mitsubishi Lancer Evo 9",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "45",
+            "NomeCarro": "Range Rover Vogue",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "46",
+            "NomeCarro": "Jeep Cherokee",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "447",
+            "NomeCarro": "McLaren Senna",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "48",
+            "NomeCarro": "Lamborghini Huracan",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "49",
+            "NomeCarro": "NAston Martin DBS",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "50",
+            "NomeCarro": "Lancer Evolution X",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "51",
+            "NomeCarro": "Subaru Impreza",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "52",
+            "NomeCarro": "Subaru BRZ",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "id": "53",
+            "NomeCarro": "Silvia",
+            "PrecoCarro": 20000,
+            "ImgCarro": "caminho/para/imagem3.jpg",
+            "DescCarro": "OBS: O veiculo tem a duração de 30 Dias."
+        }
+    ]
+}

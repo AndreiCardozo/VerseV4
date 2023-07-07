@@ -1,0 +1,159 @@
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
+nav {
+  display: block;
+  padding: 35px;
+  background-color: #12161e;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #cdcdcd;
+}
+
+.nav_buttons a,
+.nav_links a {
+  color: #cdcdcd;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.nav_links a:hover,
+.nav_buttons a:hover {
+  color: #9b5de5;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.nav_buttons a:hover .cartIcon {
+  color: #9b5de5;
+}
+
+.nav_links,
+.nav_buttons {
+  gap: 28px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav_links a {
+  font-weight: 700;
+  position: relative;
+}
+
+.carrinho {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.store_btn {
+  background-color: #7140ab;
+  padding: 10px 24px;
+  border-radius: 64px;
+  color: #cdcdcd;
+  transition-duration: 0.2s;
+}
+
+.cartIcon {
+  margin-right: 10px;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../assets/BannerVerse.png);
+}
+
+.fivem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.zoomOutEffect {
+  transition: transform 0.3s;
+}
+
+.zoomOutEffect:hover {
+  transform: scale(1.2);
+}
+
+.fivem h1,
+.discord h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fivem p,
+.discord p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #798095;
+}
+
+.logo {
+  max-width: 256px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.discord {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .nav_links,
+  .nav_buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .store_btn {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_links a,
+  .nav_buttons a {
+    font-size: 16px;
+  }
+
+  .store_btn {
+    padding: 6px 12px;
+  }
+
+  .fivem h1,
+  .discord h1 {
+    font-size: 20px;
+  }
+
+  .fivem p,
+  .discord p {
+    font-size: 14px;
+  }
+}

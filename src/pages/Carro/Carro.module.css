@@ -1,0 +1,140 @@
+.carrosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.carroItem {
+  margin-top: 20px;
+  background-color: #12161E;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.doarButton {
+  background-color: #076a04;
+  color: #12161E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.doarButton:hover {
+  background-color: #2e8b57;
+}
+
+.detalhesButton {
+  background-color: #00225b;
+  color: #12161E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.detalhesButton:hover {
+  background-color: #001540;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.pageButton {
+  background-color: #001540;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.pageButton:hover {
+  background-color: #260F5F;
+}
+
+.activePageButton {
+  background-color: #BC15CB;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background-color: #121214;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+  
+}
+
+.modalTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modalDescription {
+  margin-bottom: 10px;
+}
+
+.modalPrice {
+  font-weight: bold;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.modalButton {
+  background-color: #076a04;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modalButton:last-child {
+  margin-right: 0;
+}
+
+.modalButton:hover {
+  background-color: #2e8b57;
+}
