@@ -1,0 +1,34 @@
+{
+    "vips": [
+        {
+            "NomeVip": "VIP Standard",
+            "PrecoVip": 30.00,
+            "ImgVip": "caminho/para/imagem1.jpg",
+            "DescVip": "Salário de 2k, não perde mochila, premium roupas, recebe bônus em alguns trabalhos, um carro de aluguel comum por 15 dias"
+        },
+        {
+            "NomeVip": "VIP Plus",
+            "PrecoVip": 60.00,
+            "ImgVip": "Salario de 2k, não perde mochila, premium roupas, recebe bônus em alguns trabalhos e 1 carro de aluguel bronze",
+            "DescVip": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeVip": "VIP Premium",
+            "PrecoVip": 80.00,
+            "ImgVip": "caminho/para/imagem3.jpg",
+            "DescVip": "Salario de 2k, não perde mochila, premium roupas, recebe bônus em alguns trabalhos, 1 carro de aluguel comum 15 dias e 1 carro de aluguel bronze"
+        },
+        {
+            "NomeVip": "VIP Fundador",
+            "PrecoVip": 100.00,
+            "ImgVip": "caminho/para/imagem3.jpg",
+            "DescVip": "Salário de 2K, não perde mochila, premium roupas, recebe bônus em alguns trabalhos, verificado insta, número modificado, 1 carro de aluguel prata e 1 carro de aluguel ouro"
+        },
+        {
+            "NomeVip": "Verse VIP",
+            "PrecoVip": 300.00,
+            "ImgVip": "caminho/para/imagem3.jpg",
+            "DescVip": "Salário de 2K, não perde mochila, premium roupas, recebe bônus em alguns trabalhos, verificado insta, número personalizado, placa personalizada,1 carro de aluguel bronze, 1 carro de aluguel prata,1 carro de aluguel ouro e 1 havok(helicóptero)"
+        }
+    ]
+}

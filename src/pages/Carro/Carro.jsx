@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Header } from '../../components/Header';
 import carrosData from '../../assets/carros/carros.json';
 import styles from './Carro.module.css';
-import Modal from 'react-modal';
 import { Carrinho } from '../Carrinho/Carrinho';
 import { Footer } from '../../components/Footer';
 import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from '@chakra-ui/react';
 
 export function Carro({ carrinho, setCarrinho }) {
     const [carros, setCarros] = useState([]);
@@ -26,13 +26,13 @@ export function Carro({ carrinho, setCarrinho }) {
         return currentCars.map((carro) => (
             <div key={carro.id} className={styles.carroItem}>
                 <h2>{carro.NomeCarro}</h2>
+                <img src={carro.ImgCarro} alt={carro.NomeCarro} className={styles.carroImage} />
                 <p>Preço: R${carro.PrecoCarro}</p>
-                <p>{carro.DescCarro}</p>
                 <div className={styles.buttonsContainer}>
-                    <Button className={styles.doarButton} onClick={() => adicionarAoCarrinho(carro)}>
+                    <Button colorScheme='green' className={styles.doarButton} onClick={() => adicionarAoCarrinho(carro)}>
                         Adicionar no carrinho
                     </Button>
-                    <Button className={styles.detalhesButton} onClick={() => exibirDetalhes(carro)}>
+                    <Button colorScheme='blue' className={styles.detalhesButton} onClick={() => exibirDetalhes(carro)}>
                         ?
                     </Button>
                 </div>
@@ -75,54 +75,70 @@ export function Carro({ carrinho, setCarrinho }) {
     };
 
     const adicionarAoCarrinho = (carro) => {
-        const novoCarrinho = [...carrinho, { id: carro.id, nome: carro.NomeCarro, preco: carro.PrecoCarro, quantidade: 1 }];
-        setCarrinho(novoCarrinho);
+        const itemExistente = carrinho.find((item) => item.id === carro.id);
+        if (itemExistente) {
+            const novoCarrinho = carrinho.map((item) => {
+                if (item.id === carro.id) {
+                    return {
+                        ...item,
+                        quantidade: item.quantidade + 1,
+                    };
+                }
+                return item;
+            });
+            setCarrinho(novoCarrinho);
+        } else {
+            const novoCarrinho = [
+                ...carrinho,
+                { id: carro.id, nome: carro.NomeCarro, preco: carro.PrecoCarro, quantidade: 1 },
+            ];
+            setCarrinho(novoCarrinho);
+        }
     };
 
     return (
         <div>
             <Header />
+            <div className={styles.all}>
+                <div className={styles.carrosGrid}>{renderCars()}</div>
 
-            <div className={styles.carrosGrid}>{renderCars()}</div>
+                <div className={styles.pagination}>
+                    {currentPage > 1 && (
+                        <button className={styles.pageButton} onClick={() => handlePageChange(currentPage - 1)}>
+                            &lt;
+                        </button>
+                    )}
 
-            <div className={styles.pagination}>
-                {currentPage > 1 && (
-                    <button className={styles.pageButton} onClick={() => handlePageChange(currentPage - 1)}>
-                        &lt;
-                    </button>
-                )}
+                    {renderPagination()}
 
-                {renderPagination()}
-
-                {currentPage < totalPages && (
-                    <button className={styles.pageButton} onClick={() => handlePageChange(currentPage + 1)}>
-                        &gt;
-                    </button>
-                )}
+                    {currentPage < totalPages && (
+                        <button className={styles.pageButton} onClick={() => handlePageChange(currentPage + 1)}>
+                            &gt;
+                        </button>
+                    )}
+                </div>
             </div>
 
-            <Modal
-                isOpen={detalhesVisible}
-                onRequestClose={fecharDetalhes}
-                className={styles.modal}
-                overlayClassName={styles.overlay}
-            >
-                {detalhesCarro && (
-                    <div>
-                        <h2>{detalhesCarro.NomeCarro}</h2>
-                        <p>{detalhesCarro.DescCarro}</p>
-                        <p>Preço: R${detalhesCarro.PrecoCarro}</p>
-                        <button className={styles.fecharButton} onClick={fecharDetalhes}>
+            <Modal isOpen={detalhesVisible} onClose={fecharDetalhes} size="md">
+                <ModalOverlay />
+                <ModalContent>
+                    <ModalHeader>{detalhesCarro?.NomeCarro}</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody>
+                        <p>{detalhesCarro?.DescCarro}</p>
+                        <p>Preço: R${detalhesCarro?.PrecoCarro}</p>
+                    </ModalBody>
+                    <ModalFooter>
+                        <Button colorScheme="blue" mr={3} onClick={fecharDetalhes}>
                             Fechar
-                        </button>
-                        <button className={styles.adicionarCarrinhoButton} onClick={() => adicionarAoCarrinho(detalhesCarro)}>
+                        </Button>
+                        <Button colorScheme="green" onClick={() => adicionarAoCarrinho(detalhesCarro)}>
                             Adicionar ao Carrinho
-                        </button>
-                    </div>
-                )}
+                        </Button>
+                    </ModalFooter>
+                </ModalContent>
             </Modal>
             <Footer />
         </div>
-
     );
 }

@@ -1,0 +1,40 @@
+{
+    "motos": [
+        {
+            "NomeMoto": "BMW R1250",
+            "PrecoMoto": 8000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064284766158928/BMW_R1250.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "Yamaha R6",
+            "PrecoMoto": 10000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064284132814849/Yamaha_R6.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "BMW S 1000 RR",
+            "PrecoMoto": 10000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064285068132392/BMWS1000RR.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "Urbandevil",
+            "PrecoMoto": 10000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064283793080390/Urbandevil.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "YAMAHA XJ6",
+            "PrecoMoto": 10000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064284426403942/Yamaha_XJ6.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMoto": "Tiger 1200",
+            "PrecoMoto": 10000,
+            "ImgMoto": "https://cdn.discordapp.com/attachments/1058556521107169330/1127064283461713970/Tiger_1200.png",
+            "DescMoto": "OBS: O veiculo tem a duração de 30 Dias."
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "aereos": [
+        {
+            "NomeAereo": "Havok",
+            "PrecoAereo": 75.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063937804939275/Havok.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeAereo": "Supervolito2",
+            "PrecoAereo": 80.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063938513780836/Supervolito2.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeAereo": "Swift2",
+            "PrecoAereo": 100.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063939029676123/Swift2.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeAereo": "Volatus",
+            "PrecoAereo": 120.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063939612688414/Volatus.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeAereo": "Velum2",
+            "PrecoAereo": 100.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063939319074846/Velum2.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeAereo": "Luxor2",
+            "PrecoAereo": 150.00,
+            "ImgAereo": "https://cdn.discordapp.com/attachments/1058556521107169330/1127063938161447042/Luxor2.png",
+            "DescAereo": "OBS: O veiculo tem a duração de 30 Dias."
+        }
+    ]
+}

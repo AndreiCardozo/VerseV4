@@ -2,6 +2,8 @@
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  min-height: 100vh;
+  background-color: #000000;
 }
 
 .title {
@@ -11,7 +13,6 @@
 }
 
 .itemsContainer {
-    
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
@@ -20,24 +21,26 @@
 }
 
 .item {
-    display: flex;
-  background-color: #12161E;
+  display: flex;
+  align-items: center;
+  background-color: #12161e;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
 .itemTitle {
+  flex-grow: 1;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 .itemPrice {
   font-size: 16px;
   color: #666666;
-  margin-bottom: 5px;
+  margin-left: auto;
 }
 
 .itemDesc {
@@ -48,12 +51,7 @@
 .quantityContainer {
   display: flex;
   align-items: center;
-}
-
-.quantityLabel {
-  font-size: 14px;
-  color: #ffffff;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 
 .quantityButton {
@@ -65,6 +63,7 @@
   border-radius: 30%;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin: 0 5px;
 }
 
 .quantityButton:hover {
@@ -87,8 +86,22 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-left: 20px;
 }
 
 .removeButton:hover {
   background-color: #d32f2f;
+}
+
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.emptyMessage {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
 }

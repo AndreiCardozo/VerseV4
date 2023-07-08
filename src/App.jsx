@@ -15,7 +15,7 @@ import { Mansoes } from './pages/Mansoes/Mansoes';
 import { Vips } from './pages/Vips/Vips';
 import { Outros } from './pages/Outros/Outros';
 import { Carrinho } from './pages/Carrinho/Carrinho';
-import { Aereo } from './pages/Aereo/aereo';
+import { Aereo } from './pages/Aereo/Aereo';
 import theme from './theme';
 
 export function App() {

@@ -67,38 +67,41 @@ export function Carrinho({ carrinho }) {
             <Header />
             <h1 className={styles.title}>Carrinho</h1>
             <div className={styles.itemsContainer}>
-                {carrinhoAtual.map((item) => (
-                    <div key={item.id} className={styles.item}>
-                        <h2 className={styles.itemTitle}>{item.nome}</h2>
-                        <p className={styles.itemPrice}>Preço: R${item.preco}</p>
-                        <p className={styles.itemDesc}>{item.descricao}</p>
-                        <div className={styles.quantityContainer}>
-                            <button
-                                className={styles.quantityButton}
-                                onClick={() => removerQuantidade(item.id)}
-                            >
-                                -
-                            </button>
-                            <span className={styles.quantity}>{item.quantidade}</span>
-                            <button
-                                className={styles.quantityButton}
-                                onClick={() => atualizarQuantidade(item.id, item.quantidade + 1)}
-                            >
-                                +
+                {carrinhoAtual.length > 0 ? (
+                    carrinhoAtual.map((item) => (
+                        <div key={item.id} className={styles.item}>
+                            <h2 className={styles.itemTitle}>{item.nome}</h2>
+                            <p className={styles.itemPrice}>Preço: R${item.preco}</p>
+                            <p className={styles.itemDesc}>{item.descricao}</p>
+                            <div className={styles.quantityContainer}>
+                                <button
+                                    className={styles.quantityButton}
+                                    onClick={() => removerQuantidade(item.id)}
+                                >
+                                    -
+                                </button>
+                                <span className={styles.quantity}>{item.quantidade}</span>
+                                <button
+                                    className={styles.quantityButton}
+                                    onClick={() => atualizarQuantidade(item.id, item.quantidade + 1)}
+                                >
+                                    +
+                                </button>
+                            </div>
+                            <button className={styles.removeButton} onClick={() => removerItem(item.id)}>
+                                Remover
                             </button>
                         </div>
-                        <button
-                            className={styles.removeButton}
-                            onClick={() => removerItem(item.id)}
-                        >
-                            Remover
-                        </button>
-                    </div>
-                ))}
+                    ))
+                ) : (
+                    <p className={styles.emptyMessage}>O carrinho está vazio.</p>
+                )}
             </div>
-            <div className={styles.valorTotal}>
-                Valor Total: R${calcularValorTotal().toFixed(2)}
-            </div>
+            {carrinhoAtual.length > 0 && (
+                <div className={styles.valorTotal}>
+                    Valor Total: R${calcularValorTotal().toFixed(2)}
+                </div>
+            )}
         </div>
     );
 }

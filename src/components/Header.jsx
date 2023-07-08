@@ -51,7 +51,7 @@ export function Header() {
                 </div>
             </nav>
             <div className={styles.wrapper}>
-                <div className={`${styles.fivem} ${styles.zoomOutEffect}`}>
+                <div  className={`${styles.fivem} ${styles.zoomOutEffect}`}>
                     <h1>CONECTAR-SE AO FIVEM</h1>
                     <p>Clique para jogar</p>
                 </div>

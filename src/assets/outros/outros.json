@@ -1,0 +1,44 @@
+{
+    "outros": [
+        {
+            "NomeOutros": "+1 Personagem ",
+            "PrecoOutros": 40.00,
+            "ImgOutros": "caminho/para/imagem1.jpg"
+        },
+        {
+            "NomeOutros": "Verificado Insta",
+            "PrecoOutros": 25.00,
+            "ImgOutros": "caminho/para/imagem2.jpg"
+        },
+        {
+            "NomeOutros": "Placa personalizada",
+            "PrecoOutros": 25.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        },
+        {
+            "NomeOutros": "Vaga na Garagem",
+            "PrecoOutros": 25.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        },
+        {
+            "NomeOutros": "Chip Telefônico",
+            "PrecoOutros": 25.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        },
+        {
+            "NomeOutros": "Spotify",
+            "PrecoOutros": 15.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        },
+        {
+            "NomeOutros": "Nacionalidade",
+            "PrecoOutros": 10.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        },
+        {
+            "NomeOutros": "Troca de nome",
+            "PrecoOutros": 10.00,
+            "ImgOutros": "caminho/para/imagem3.jpg"
+        }
+    ]
+}

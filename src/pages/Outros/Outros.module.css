@@ -1,0 +1,31 @@
+.container {
+flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.outrosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.outroItem {
+  margin-top: 20px;
+  background-color: #12161E;
+  padding: 20px;
+  border-radius: 5px;
+  color: #ffffff; /* Cor do texto (letras) */
+}
+
+.outroItem .doarButton {
+  margin-right: 10px;
+}
+
+.outroItem .detalhesButton {
+  margin-left: 10px;
+}

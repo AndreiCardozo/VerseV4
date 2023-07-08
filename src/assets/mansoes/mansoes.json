@@ -1,0 +1,76 @@
+{
+    "mansoes": [
+        {
+            "NomeMansoes": "MANSAO VIP 1",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 2",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 3",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 4",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 5",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 6",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 7",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 8",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 9",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 10",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 11",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        },
+        {
+            "NomeMansoes": "MANSAO VIP 12",
+            "PrecoMansoes": 100.00,
+            "ImgMansoes": "https://cdn.discordapp.com/attachments/1079461603755442196/1079461745426448414/image.png",
+            "DescMansoes": "OBS: O veiculo tem a duração de 30 Dias."
+        }
+    ]
+}

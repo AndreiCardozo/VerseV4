@@ -1,0 +1,35 @@
+.container {
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.mansoesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.mansaoItem {
+  margin-top: 20px;
+  background-color: #12161E;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff; /* Cor do texto branca */
+}
+
+.doarButton {
+  background-color: #076a04;
+  color: #12161E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.doarButton:hover {
+  background-color: #2e8b57;
+}
